@@ -20,4 +20,12 @@ public class Calc {
 		System.out.print("Division of "+a+" and "+b+" is: ");
 		return a/b;
 	}
+	
+	public int div(int a){   
+			int fact=1;
+			for(i=1;i<=a;i++){    
+				fact=fact*i;    
+		}
+		return fact;
+	}
 }
